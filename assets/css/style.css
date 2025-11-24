@@ -1,5 +1,5 @@
 /** resetting default padding, margin and color for all elements **/
-*{text-decoration: none;list-style-type: none; padding: 0;margin: 0;}
+*{text-decoration: none;list-style-type: none; padding: 0;margin: 0; //outline: red 1px solid;}
 
 /** import font **/
 .font-inter{font-family: 'Inter', sans-serif;}
@@ -68,6 +68,7 @@ ul{
 .introduction-class{
     width: auto;
     height: 750px;
+    padding: 100px;
 }
 
 .introduction-box{}
@@ -76,6 +77,16 @@ ul{
 
 .introduction-title-txt{
     gap: 30px; 
+}
+
+.introduction-header-txt{
+    gap: 30px;
+}
+
+.txt-software-dev{
+    background: linear-gradient(90deg, #29C8AD, #4473C6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 /** Footer Style **/
