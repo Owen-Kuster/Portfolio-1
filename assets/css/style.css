@@ -1,7 +1,7 @@
-/** Resetting default padding, margin and color for all elements **/
+/** resetting default padding, margin and color for all elements **/
 *{text-decoration: none;list-style-type: none; padding: 0;margin: 0;}
 
-/** Font Styles **/
+/** import font **/
 .font-inter{font-family: 'Inter', sans-serif;}
 .font-montserrat{font-family: 'Montserrat', sans-serif;}
 
@@ -15,13 +15,17 @@
 .fs-24{font-size: 24px;}
 .fs-32{font-size: 32px;}
 .fs-36{font-size: 36px;}
+.fs-50{font-size: 50px;}
 
+/** font styles **/
+.fs-italic{font-style: italic;}
 
-/** Body Color **/
+/** body Color **/
 Body{background-color: #0A0A0A;}
 
 /** txt colors **/
 .white-txt{color: #FFFFFF;}
+.blue-txt{color: #4473C6;}
 
 /** background colors **/
 .bg-dark{background-color: #101010;}
@@ -30,6 +34,7 @@ Body{background-color: #0A0A0A;}
 .flex-row{display: flex; flex-direction: row;}
 .flex-align-center{display: flex; align-items: center;}
 .flex-space-between{display: flex; justify-content: space-between;}
+.flex-justify-center{display: flex; justify-content: center;}
 
 /** hovers **/
 .hover-pointer{cursor: pointer;}
@@ -59,6 +64,21 @@ ul{
     -webkit-text-fill-color: transparent;
 }
 
+/** section 1 styling introduction **/
+.introduction-class{
+    width: auto;
+    height: 750px;
+}
+
+.introduction-box{}
+
+.introduction-code-background{}
+
+.introduction-title-txt{
+    gap: 30px; 
+}
+
+/** Footer Style **/
 footer{
     width: 100%;
     height: 80px;
