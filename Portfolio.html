@@ -15,41 +15,100 @@
     <!-- header -->
     <header class="flex-align-center flex-space-between font-montserrat bg-dark">
         <div class="fs-20 logo">
-            <h1 class="fw-super-bold logo-gradient">OK</h1>
+            <h1 class="fw-super-bold logo-gradient"><a href="#top">OK</a></h1>
         </div>
         <div>
             <nav>
                 <ul class="white-txt flex-row">
-                    <li class="hover-duration-500ms hover-green">Home</li>
-                    <li class="hover-duration-500ms hover-green">About</li>
+                    <li class="hover-duration-500ms hover-green"><a href="#top">Home</a></li>
+                    <li class="hover-duration-500ms hover-green"><a href="#about-me">About</a></li>
                     <li class="hover-duration-500ms hover-green">Contact</li>
                     <li class="hover-duration-500ms hover-green">Resume</li>
                     <li class="hover-duration-500ms hover-green">Resume</li>
                     <li class="hover-duration-500ms hover-green">Projects</li>
-                    <li class="hover-duration-500ms hover-green">Goals</li>
+                    <li class="hover-duration-500ms hover-green"><a href="#program-goals">Goals</a></li>
                 </ul>
             </nav>
         </div>
     </header>
     <main>
         <!-- introduction section 1 -->
-        <section class="font-montserrat white-txt introduction-class">
-            <div class="introduction-box">
-                <div class="introduction-code-background">
+        <section class="font-montserrat white-txt flex-justify-center introduction-class">
+            <div>
+                <div class="introduction-box-txt">
+                    <div class="introduction-code-background">
+                    </div>
+                    <div class="flex-row flex-justify-center fs-50 introduction-title-txt">
+                        <h1>Hi, I'm</h1>
+                        <h1 class="fs-italic blue-txt title-owen">Owen!</h1>
+                    </div>
+                    <div class="flex-row flex-justify-center fs-36 introduction-header-txt">
+                        <h1 class="fw-normal">I'm a</h1>
+                        <h1 class="fs-italic fw-normal txt-software-dev">Student Software Developer</h1>
+                    </div>
+                    <div class="flex-row fs-36 fs-italic fw-light grey-txt introduction-normal-txt">
+                        <p>It seems like you have stumbled upon my little web.<br>Have fun exploring!</p>
+                    </div>
+                </div>
+
+                <div class="flex-justify-center flex-column flex-align-center introduction-read-more-box">
+                    <div class="fs-36 fs-italic fw-light greyer-txt read-more">
+                        <p>Want to read more?</p>
+                    </div>
+                    <a href="#about-me">
+                        <div class="fs-36 fw-bold button-styling click-me-button">
+                            Click Me!
+                        </div>
+                    </a>
 
                 </div>
-                <div class="flex-row flex-justify-center fs-50 introduction-title-txt">
-                    <h1>Hi, I'm</h1>
-                    <h1 class="fs-italic blue-txt title-owen">Owen!</h1>
-                </div>
-                <div class="flex-row flex-justify-center fs-36 introduction-header-txt">
-                    <h1 class="fw-normal">I'm a</h1>
-                    <h1 class="fs-italic fw-normal txt-software-dev">Student Software Developer</h1>
-                </div>
-
             </div>
+
+
         </section>
 
+        <!-- about me section 2 -->
+        <section class="font-montserrat white-txt flex-justify-center about-me" id="about-me">
+            <div class="about-container">
+                <div class="flex-row flex-justify-center fs-50">
+                    <h1>About</h1>
+                    <h1 class="fs-italic blue-txt">Me</h1>
+                </div>
+
+                <div class="color-bar"></div>
+
+                <div class="flex-row fs-36 fs-italic fw-light grey-txt about-me-txt">
+                    <p>Hello, I’m Owen. An IT student at the school ROC NIJMEGEN. Even tho I just
+                        started coding, I am already very passionate about coding and programming. Being
+                        creative and solving problems are one of my favorite things to do! I have a passion
+                        to learn more and more. Let’s connect!</p>
+                </div>
+            </div>
+        </section>
+        <!-- project goals section 3 -->
+        <section class="font-montserrat white-txt flex-justify-center program-goals" id="program-goals">
+            <div class="program-goals-container">
+                <div class="flex-align-center button-styling fs-36 fw-bold my-portfolio-box">
+                    <p>My Portfolio</p>
+                </div>
+                <div class="flex-row flex-justify-center fs-50 program-goals-title">
+                    <h1>Program Goals</h1>
+                </div>
+                <div class="color-bar"></div>
+
+                <div class="font-montserrat white-txt flex-justify-center program-goals-three-boxes">
+                    <div class="bg-light-dark program-boxes">
+
+                    </div>
+                    <div class="bg-light-dark program-boxes">
+
+                    </div>
+                    <div class="bg-light-dark program-boxes">
+
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <!-- footer -->
     <footer class="flex-align-center white-txt font-montserrat bg-dark">
@@ -64,7 +123,6 @@
                 <a href="https://github.com/Owen-Kuster"><img src="assets/img/Icon/github-white.png" alt="github"
                         height="60px" width="60px"></a>
             </div>
-
         </div>
 
     </footer>

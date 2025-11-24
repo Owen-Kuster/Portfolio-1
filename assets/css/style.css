@@ -1,6 +1,9 @@
 /** resetting default padding, margin and color for all elements **/
 *{text-decoration: none;list-style-type: none; padding: 0;margin: 0; //outline: red 1px solid;}
 
+/** scroll smooth **/
+html{scroll-behavior: smooth;}
+
 /** import font **/
 .font-inter{font-family: 'Inter', sans-serif;}
 .font-montserrat{font-family: 'Montserrat', sans-serif;}
@@ -9,6 +12,7 @@
 .fw-bold{font-weight: 700;}
 .fw-super-bold{font-weight: 900;}
 .fw-normal{font-weight: 400;}
+.fw-light{font-weight: lighter;}
 
 /** font sizes **/
 .fs-20{font-size: 20px;}
@@ -26,20 +30,47 @@ Body{background-color: #0A0A0A;}
 /** txt colors **/
 .white-txt{color: #FFFFFF;}
 .blue-txt{color: #4473C6;}
+.grey-txt{color: #dddddd;;}
+.greyer-txt{color: #B3B3B3;;}
 
 /** background colors **/
 .bg-dark{background-color: #101010;}
+.bg-light-dark{background-color: #131313;}
 
 /** flexbox **/
 .flex-row{display: flex; flex-direction: row;}
 .flex-align-center{display: flex; align-items: center;}
 .flex-space-between{display: flex; justify-content: space-between;}
 .flex-justify-center{display: flex; justify-content: center;}
+.flex-justify-self-center{display: flex; justify-self: center;}
+.flex-column{display: flex; flex-direction: column;}
 
 /** hovers **/
 .hover-pointer{cursor: pointer;}
 .hover-duration-500ms{transition-duration: 500ms;}
 .hover-green:hover{color: #29C8AD;}
+
+/** link styling **/
+a{text-decoration: none; color: inherit;}
+
+/** color bar **/
+.color-bar{
+    display: flex;
+    justify-self: center;
+    width: 310px;
+    height: 10px;
+    border-radius: 100px;
+    background: linear-gradient(90deg, #29C8AD, #4473C6);
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+/** button styling **/
+.button-styling{
+    border-radius: 100px;
+    outline: #29C8AD 3px solid;
+    background: linear-gradient(90deg, #29C8AD, #4473C6);
+}
 
 /** Header Style **/
 header{
@@ -68,25 +99,74 @@ ul{
 .introduction-class{
     width: auto;
     height: 750px;
-    padding: 100px;
+    padding: 200px 0px 0px 0px;
 }
 
-.introduction-box{}
-
-.introduction-code-background{}
-
-.introduction-title-txt{
-    gap: 30px; 
-}
-
-.introduction-header-txt{
-    gap: 30px;
-}
+.introduction-box-txt{width: 1100px;}
+.introduction-title-txt{gap: 30px; }
+.introduction-header-txt{gap: 30px;}
 
 .txt-software-dev{
+    padding: 0px 10px 0px 0px;
     background: linear-gradient(90deg, #29C8AD, #4473C6);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.introduction-normal-txt{padding: 0px 0px 0px 09px;}
+
+
+.read-more{
+    padding: 200px 0px 0px 0px;
+    letter-spacing: 6px;
+}
+
+.click-me-button{
+    margin-top: 10px;
+    padding: 10px 130px 10px 130px;
+}
+
+/** section 2 styling about me **/
+.about-me{
+    padding: 500px 0px 0px 0px;
+}
+
+.about-me-txt{
+    width: 1243px;
+    margin-top: 10px;
+}
+
+/** section 3 styling program goals **/
+.program-goals{
+    width: 100%;
+    padding: 200px 0px 0px 0px;
+}
+
+.program-goals-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.my-portfolio-box{
+    padding: 10px 50px 10px 50px;
+}
+
+.program-goals-title{
+    margin-top: 50px;
+}
+
+.program-goals-three-boxes{
+    gap: 100px;
+}
+
+.program-boxes{
+    outline: #2D2D2D 2px solid;
+    border-radius: 50px;
+    width: 500px;
+    height: 290px;
+    margin-top: 80px;
 }
 
 /** Footer Style **/
