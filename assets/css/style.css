@@ -4,6 +4,12 @@
 /** scroll smooth **/
 html{scroll-behavior: smooth;}
 
+main{
+    background-image: url('../img/Code/Code1.png');
+    background-repeat: no-repeat;
+}
+
+
 /** import font **/
 .font-inter{font-family: 'Inter', sans-serif;}
 .font-montserrat{font-family: 'Montserrat', sans-serif;}
@@ -102,11 +108,17 @@ ul{
     padding: 200px 0px 0px 0px;
 }
 
-.introduction-box-txt{width: 1100px;}
+.introduction-box-txt{
+    align-items: flex-start;
+    width: 1400px;
+}
 .introduction-title-txt{gap: 30px; }
 .introduction-header-txt{gap: 30px;}
 
 .txt-software-dev{
+    display: flex;
+    align-self: flex-start;
+    width: auto;
     padding: 0px 10px 0px 0px;
     background: linear-gradient(90deg, #29C8AD, #4473C6);
     -webkit-background-clip: text;
@@ -158,6 +170,7 @@ ul{
 }
 
 .program-goals-three-boxes{
+    width: 100%;
     gap: 100px;
 }
 
