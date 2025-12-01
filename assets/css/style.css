@@ -1,5 +1,5 @@
 /** resetting default padding, margin and color for all elements **/
-*{text-decoration: none;list-style-type: none; padding: 0;margin: 0; //outline: red 1px solid;}
+*{text-decoration: none;list-style-type: none; padding: 0;margin: 0; outline: red 1px solid;}
 
 /** scroll smooth **/
 html{scroll-behavior: smooth;}
@@ -57,12 +57,8 @@ Body{background-color: #0A0A0A;}
 .hover-duration-500ms{transition-duration: 500ms;}
 .hover-green:hover{color: #29C8AD;}
 
-
-
 /** color bar **/
 .color-bar{
-    display: flex;
-    justify-self: center;
     width: 310px;
     height: 10px;
     border-radius: 100px;
@@ -71,11 +67,34 @@ Body{background-color: #0A0A0A;}
     margin-bottom: 50px;
 }
 
+.color-ball{
+    width: 50px;
+    height: 50px;
+    outline: #4AA495 3px solid;
+    border-radius: 100%;
+    background: linear-gradient(180deg, #29C8AD, #4473C6);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.color-line{
+    width: 5px;
+    height: 380px;
+    border-radius: 100px;
+    background: linear-gradient(180deg, #29C8AD, #4473C6);
+}
+
 /** button styling **/
 .button-styling{
     border-radius: 100px;
     outline: #29C8AD 3px solid;
     background: linear-gradient(90deg, #29C8AD, #4473C6);
+}
+
+.button-styling-green{
+    border-radius: 100px;
+    outline: #4AA495 3px solid;
+    background: linear-gradient(90deg, #29C8AD, #146255);
 }
 
 /** Header Style **/
@@ -167,8 +186,8 @@ ul{gap: 20px;padding: 0px 40px 0px 0px;}
     width: auto;
 }
 
-.my-portfolio-box{padding: 10px 50px 10px 50px;}
-.program-goals-title{margin-top: 50px;}
+.my-portfolio-box{padding: 5px 50px 5px 50px;}
+.program-goals-title{padding: 50px 0px 0px 0px;}
 
 .program-goals-three-boxes{
     width: auto;
@@ -190,6 +209,21 @@ ul{gap: 20px;padding: 0px 40px 0px 0px;}
 .goals-box-txt{
     padding: 10px 20px 0px 25px;
 }
+
+/** section 4 styling my experience **/
+.my-experience{
+    width: auto;
+    height: 2000px;
+    padding: 100px 50px 0px 50px;
+}
+
+.my-experience-container{
+    width: auto;
+}
+
+.my-experience-box{width: 220px; padding: 5px 50px 5px 50px;}
+
+.work-title{padding: 50px 0px 0px 0px;}
 
 /** Footer Style **/
 footer{
