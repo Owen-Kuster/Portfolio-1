@@ -4,11 +4,8 @@
 /** scroll smooth **/
 html{scroll-behavior: smooth;}
 
-main{
-    background-image: url('../img/Code/Code1.png');
-    background-repeat: no-repeat;
-}
-
+/** link styling **/
+a{text-decoration: none; color: inherit;}
 
 /** import font **/
 .font-inter{font-family: 'Inter', sans-serif;}
@@ -50,14 +47,17 @@ Body{background-color: #0A0A0A;}
 .flex-justify-center{display: flex; justify-content: center;}
 .flex-justify-self-center{display: flex; justify-self: center;}
 .flex-column{display: flex; flex-direction: column;}
+.flex-space-evenly{display: flex; justify-content: space-evenly;}
+
+/** margins **/
+.mt-10{margin-top: 10px;}
 
 /** hovers **/
 .hover-pointer{cursor: pointer;}
 .hover-duration-500ms{transition-duration: 500ms;}
 .hover-green:hover{color: #29C8AD;}
 
-/** link styling **/
-a{text-decoration: none; color: inherit;}
+
 
 /** color bar **/
 .color-bar{
@@ -81,19 +81,16 @@ a{text-decoration: none; color: inherit;}
 /** Header Style **/
 header{
     width: auto;
+    position: sticky;
+    top: 0;
     height: 80px;
     border-bottom: 5px solid transparent;
     border-image: linear-gradient(90deg, #29C8AD, #4473C6) 1;
 }
 
-ul{
-    gap: 20px;
-    padding: 0px 40px 0px 0px;
-}
+ul{gap: 20px;padding: 0px 40px 0px 0px;}
 
-.logo{
-    padding: 0px 0px 0px 40px;
-}
+.logo{padding: 0px 0px 0px 40px;}
 
 .logo-gradient{
     background: linear-gradient(90deg, #29C8AD, #4473C6);
@@ -103,30 +100,32 @@ ul{
 
 /** section 1 styling introduction **/
 .introduction-class{
-    width: auto;
+    width: 100%;
     height: 750px;
-    padding: 200px 0px 0px 0px;
 }
 
-.introduction-box-txt{
-    align-items: flex-start;
-    width: 1400px;
+.introduction-code-background{
+    width: 100%;
+    height: auto;
+    background-image: url('../img/Code/Code\ Fade.png');
+    background-repeat: no-repeat;
 }
-.introduction-title-txt{gap: 30px; }
-.introduction-header-txt{gap: 30px;}
+
+.introduction-box-contain{
+    width: auto;
+    padding: 100px 0px 0px 0px;
+}
+
+.introduction-title-txt{gap: 30px; width: auto; }
+.introduction-header-txt{gap: 30px; width: auto;}
 
 .txt-software-dev{
-    display: flex;
-    align-self: flex-start;
     width: auto;
     padding: 0px 10px 0px 0px;
     background: linear-gradient(90deg, #29C8AD, #4473C6);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
-.introduction-normal-txt{padding: 0px 0px 0px 09px;}
-
 
 .read-more{
     padding: 200px 0px 0px 0px;
@@ -140,46 +139,56 @@ ul{
 
 /** section 2 styling about me **/
 .about-me{
-    padding: 500px 0px 0px 0px;
+    padding: 100px 0px 0px 0px;
+    width: auto;
+    height: 550px;
+    background-image: url('../img/Code/Code\ Fade2.png');
+    background-repeat: no-repeat;
+}
+
+.about-container{
+    width: auto;
 }
 
 .about-me-txt{
-    width: 1243px;
+    width: 1200px;
     margin-top: 10px;
 }
 
+.about-me-title{gap: 30px;}
+
 /** section 3 styling program goals **/
 .program-goals{
-    width: 100%;
-    padding: 200px 0px 0px 0px;
+    width: auto;
+    padding: 100px 0px 0px 0px;
 }
 
 .program-goals-container{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    width: auto;
 }
 
-.my-portfolio-box{
-    padding: 10px 50px 10px 50px;
-}
-
-.program-goals-title{
-    margin-top: 50px;
-}
+.my-portfolio-box{padding: 10px 50px 10px 50px;}
+.program-goals-title{margin-top: 50px;}
 
 .program-goals-three-boxes{
-    width: 100%;
-    gap: 100px;
+    width: auto;
+    gap: 90px;
 }
 
 .program-boxes{
     outline: #2D2D2D 2px solid;
     border-radius: 50px;
-    width: 500px;
-    height: 290px;
+    width: 400px;
+    height: 240px;
     margin-top: 80px;
+}
+
+.goals-box-title{
+    padding: 20px 20px 0px 25px;
+}
+
+.goals-box-txt{
+    padding: 10px 20px 0px 25px;
 }
 
 /** Footer Style **/
