@@ -1,5 +1,5 @@
 /** resetting default padding, margin and color for all elements **/
-*{text-decoration: none;list-style-type: none; padding: 0;margin: 0; outline: red 1px solid;}
+*{text-decoration: none;list-style-type: none; padding: 0;margin: 0; //outline: red 1px solid;}
 
 /** scroll smooth **/
 html{scroll-behavior: smooth;}
@@ -222,7 +222,10 @@ ul{gap: 20px;padding: 0px 40px 0px 0px;}
 }
 
 .my-experience-box{width: 220px; padding: 5px 50px 5px 50px;}
-
+.work-experience-boxes{width: auto; padding: 0px 0px 0px 0px;}
+.work-design{
+    width: 310px;
+}
 .work-title{padding: 50px 0px 0px 0px;}
 
 /** Footer Style **/
