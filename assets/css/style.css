@@ -43,6 +43,8 @@ Body{background-color: #0A0A0A;}
 /** flexbox **/
 .flex-row{display: flex; flex-direction: row;}
 .flex-align-center{display: flex; align-items: center;}
+.flex-align-self-center{display: flex; align-self: center;}
+.flex-align-content-center{display: flex; align-content: center;}
 .flex-space-between{display: flex; justify-content: space-between;}
 .flex-justify-center{display: flex; justify-content: center;}
 .flex-justify-self-center{display: flex; justify-self: center;}
@@ -99,7 +101,7 @@ Body{background-color: #0A0A0A;}
 
 /** Header Style **/
 header{
-    width: auto;
+    width: 100%;
     position: sticky;
     top: 0;
     height: 80px;
@@ -202,13 +204,8 @@ ul{gap: 20px;padding: 0px 40px 0px 0px;}
     margin-top: 80px;
 }
 
-.goals-box-title{
-    padding: 20px 20px 0px 25px;
-}
-
-.goals-box-txt{
-    padding: 10px 20px 0px 25px;
-}
+.goals-box-title{padding: 20px 20px 0px 25px;}
+.goals-box-txt{padding: 10px 20px 0px 25px;}
 
 /** section 4 styling my experience **/
 .my-experience{
@@ -217,16 +214,23 @@ ul{gap: 20px;padding: 0px 40px 0px 0px;}
     padding: 100px 50px 0px 50px;
 }
 
-.my-experience-container{
-    width: auto;
-}
-
+.my-experience-container{width: auto;}
 .my-experience-box{width: 220px; padding: 5px 50px 5px 50px;}
 .work-experience-boxes{width: auto; padding: 0px 0px 0px 0px;}
-.work-design{
-    width: 310px;
-}
+.work-design{width: 310px;}
 .work-title{padding: 50px 0px 0px 0px;}
+
+.work-boxes{
+    width: 1000px;
+    height: 400px;
+    border-radius: 50px;
+    outline: #2D2D2D 2px solid;
+}
+
+.albron-work{margin-top: 20px;}
+.albron-work-txt{width: 300px; height: auto;}
+.work-box-txt{ padding: 30px 0px 0px 30px;}
+.work-image{overflow: hidden; border-top-right-radius: 50px; border-bottom-right-radius: 50px;}
 
 /** Footer Style **/
 footer{
