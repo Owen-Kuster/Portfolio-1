@@ -1,5 +1,5 @@
 /** resetting default padding, margin and color for all elements **/
-*{text-decoration: none;list-style-type: none; padding: 0;margin: 0; outline: red 1px solid;}
+*{position: relative; text-decoration: none;list-style-type: none; padding: 0;margin: 0; //outline: red 1px solid;}
 
 /** scroll smooth **/
 html{scroll-behavior: smooth;}
@@ -22,8 +22,10 @@ a{text-decoration: none; color: inherit;}
 .fw-light{font-weight: lighter;}
 
 /** font sizes **/
+.fs-15{font-size: 15px;}
 .fs-20{font-size: 20px;}
 .fs-24{font-size: 24px;}
+.fs-26{font-size: 26px;}
 .fs-32{font-size: 32px;}
 .fs-36{font-size: 36px;}
 .fs-50{font-size: 50px;}
@@ -57,6 +59,11 @@ Body{background-color: #0A0A0A;}
 
 /** margins **/
 .mt-10{margin-top: 10px;}
+
+/** z-index **/
+.z-1{z-index:1;}
+.z-2{z-index:2;}
+.z-3{z-index:3;}
 
 /** hovers **/
 .hover-pointer{cursor: pointer;}
@@ -255,7 +262,39 @@ ul{gap: 20px;padding: 0px 40px 0px 0px;}
 }
 
 /** section 5 styling projects **/
-.projects-placement{padding: 100px 40px;}
+.projects-placement{
+    width: 100%; 
+    padding: 100px 40px;
+    background-image: url('../img/Code/Code\ Fade2.png');
+    background-repeat: no-repeat;
+}
+
+.project-title{padding: 50px 0px 0px 0px;}
+.project-txt{width: 65%;}
+
+.project-box-title{padding: 20px 20px 0px 25px;}
+.project-box-txt{width: 80%; padding: 10px 20px 0px 25px;}
+
+.project-boxes{
+    position: relative;
+    overflow: hidden;
+    outline: #2D2D2D 2px solid;
+    border-radius: 50px;
+    width: 26%;
+    height: 300px;
+    margin-top: 80px;
+}
+
+.project-box-three-boxes{gap: 90px;}
+
+.mask-image-project {
+    mask-image: linear-gradient(360deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.1) 60%, rgba(0,0,0,0) 100%);
+}
+
+.pink-goose-image {bottom: 140px;}
+.mastermind-image {bottom: 80px;}
+.portfolio-image  {bottom: 80px;}
+
 
 /** Footer Style **/
 footer{
