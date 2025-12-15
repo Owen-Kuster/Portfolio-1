@@ -1,5 +1,5 @@
 /** resetting default padding, margin and color for all elements **/
-*{position: relative; text-decoration: none;list-style-type: none; padding: 0;margin: 0; //outline: red 1px solid;}
+*{text-decoration: none;list-style-type: none; padding: 0;margin: 0; //outline: red 1px solid;}
 
 /** scroll smooth **/
 html{scroll-behavior: smooth;}
@@ -120,7 +120,7 @@ Body{background-color: #0A0A0A;}
 header{
     width: 100%;
     position: sticky;
-    z-index: 100;
+    z-index: 99;
     top: 0;
     height: 80px;
     border-bottom: 5px solid transparent;
@@ -130,6 +130,8 @@ header{
 ul{gap: 20px;padding: 0px 40px 0px 0px;}
 
 .logo{padding: 0px 0px 0px 40px;}
+
+.logo{z-index: 101;}
 
 .logo-gradient{
     background: linear-gradient(90deg, #29C8AD, #4473C6);
@@ -294,6 +296,11 @@ ul{gap: 20px;padding: 0px 40px 0px 0px;}
 .pink-goose-image {bottom: 140px;}
 .mastermind-image {bottom: 80px;}
 .portfolio-image  {bottom: 80px;}
+
+/** section 6 styling tech stack **/
+.tech-stack{width: 100%;}
+.tech-placement{width: 100%; padding: 100px 40px;;}
+.tech-title{padding: 50px 0px 0px 0px;}
 
 
 /** Footer Style **/
