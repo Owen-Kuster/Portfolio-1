@@ -41,6 +41,8 @@ Body{background-color: #0A0A0A;}
 .blue-txt{color: #4473C6;}
 .grey-txt{color: #dddddd;;}
 .greyer-txt{color: #B3B3B3;;}
+.greyest-txt{color: #B3B3B3;}
+.aqua-txt{color: #29C8AD;}
 
 /** background colors **/
 .bg-dark{background-color: #101010;}
@@ -78,6 +80,15 @@ Body{background-color: #0A0A0A;}
     background: linear-gradient(90deg, #29C8AD, #4473C6);
     margin-top: 20px;
     margin-bottom: 50px;
+}
+
+.color-bar-thanks{
+    width: 300px;
+    height: 10px;
+    border-radius: 100px;
+    background: linear-gradient(90deg, #29C8AD, #4473C6);
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .color-ball{
@@ -318,6 +329,39 @@ ul{gap: 20px;padding: 0px 40px 0px 0px;}
 }
 
 /** section 7 styling contact me **/
+.contact{padding: 100px 0px; width: 100%;}
+.contact-container{width: 100%;}
+.get-in-touch-container{width: 50%;}
+.thanks-for-visiting-container{width: 50%;}
+
+.touch-box{
+    width: 90%;
+    height: 600px;
+    border-radius: 70px;
+    outline: #2D2D2D 2px solid;
+}
+
+.touch-placement-box{
+    width: 80%;
+    height: 80%;
+    padding: 40px 60px;
+}
+
+.thanks-container{width: 100%;}
+.thanks-txt{
+    width: 47%;
+    height: auto;
+    padding: 30px 0px;
+    text-align: center;
+}
+
+.thanks-visiting-txt{
+    text-shadow: -10px -10px 30px #29C8AD;
+}
+
+.thanks-my-website-txt{
+    text-shadow: -10px -10px 30px #4473C6;
+}
 
 /** Footer Style **/
 footer{
