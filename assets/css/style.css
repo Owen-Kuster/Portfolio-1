@@ -41,12 +41,12 @@ Body{background-color: #0A0A0A;}
 .blue-txt{color: #4473C6;}
 .grey-txt{color: #dddddd;;}
 .greyer-txt{color: #B3B3B3;;}
-.greyest-txt{color: #B3B3B3;}
 .aqua-txt{color: #29C8AD;}
 
 /** background colors **/
 .bg-dark{background-color: #101010;}
 .bg-light-dark{background-color: #131313;}
+.bg-lightest-dark{background-color: #14171C;}
 
 /** flexbox **/
 .flex-row{display: flex; flex-direction: row;}
@@ -71,6 +71,9 @@ Body{background-color: #0A0A0A;}
 .hover-pointer{cursor: pointer;}
 .hover-duration-500ms{transition-duration: 500ms;}
 .hover-green:hover{color: #29C8AD;}
+.hover-light:hover{filter: brightness(1.2);}
+.hover-lighter:hover{filter: brightness(1.5);}
+.hover-size-105:hover{transform: scale(1.05);}
 
 /** color bar **/
 .color-bar{
@@ -141,8 +144,6 @@ header{
 ul{gap: 20px;padding: 0px 40px 0px 0px;}
 
 .logo{padding: 0px 0px 0px 40px;}
-
-.logo{z-index: 101;}
 
 .logo-gradient{
     background: linear-gradient(90deg, #29C8AD, #4473C6);
@@ -242,6 +243,7 @@ ul{gap: 20px;padding: 0px 40px 0px 0px;}
     height: 1600px;
     padding: 100px 0px 0px 0px;;
 }
+
 .experience-journey-box{width:100%;}
 .my-experience-box{width: auto; padding: 5px 50px 5px 50px;}
 .work-experience-boxes{width: auto;}
@@ -278,7 +280,7 @@ ul{gap: 20px;padding: 0px 40px 0px 0px;}
 .projects-placement{
     width: 100%; 
     padding: 100px 40px;
-    background-image: url('../img/Code/Code\ Fade2.png');
+    background-image: url('../img/Code/Code\ Fade.png');
     background-repeat: no-repeat;
 }
 
@@ -342,12 +344,13 @@ ul{gap: 20px;padding: 0px 40px 0px 0px;}
 }
 
 .touch-placement-box{
-    width: 80%;
+    width: 83%;
     height: 80%;
     padding: 40px 60px;
 }
 
 .thanks-container{width: 100%;}
+
 .thanks-txt{
     width: 47%;
     height: auto;
@@ -355,12 +358,41 @@ ul{gap: 20px;padding: 0px 40px 0px 0px;}
     text-align: center;
 }
 
-.thanks-visiting-txt{
-    text-shadow: -10px -10px 30px #29C8AD;
+.thanks-visiting-txt{text-shadow: -10px -10px 30px #29C8AD;}
+.thanks-my-website-txt{text-shadow: -10px -10px 30px #4473C6;}
+.form-space{padding: 20px 0px 0px 0px;}
+
+.form-width{
+    width: 100%;
+    margin-bottom: 5px;
 }
 
-.thanks-my-website-txt{
-    text-shadow: -10px -10px 30px #4473C6;
+.input-name, .input-email{
+    width: 96%;
+    height: 40px;
+    border-radius: 5px;
+    border: #1E2736 2px solid;
+    padding: 0px 10px;
+}
+
+.input-message{
+    width: 96%;
+    max-width: 96%;
+    min-width: 96%;
+    height: 130px;
+    max-height: 130px;
+    min-height: 130px;
+    border-radius: 5px;
+    border: #1E2736 2px solid;
+    padding: 10px 10px;
+}
+
+.form-submit-button{
+    margin-top: 20px;
+    padding: 10px 230px 10px 230px;
+    border-radius: 10px;
+    border: #4AA495 2px solid;
+    background: linear-gradient(90deg, #4473C6, #29C8AD);
 }
 
 /** Footer Style **/
