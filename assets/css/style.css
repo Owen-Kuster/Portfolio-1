@@ -322,11 +322,9 @@ ul{gap: 20px;padding: 0px 40px 0px 0px;}
     margin-top: 80px;
 }
 
-.project-box-three-boxes{gap: 90px;}
+.project-box-three-boxes{gap: 60px;}
 
-.mask-image-project {
-    mask-image: linear-gradient(360deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.1) 60%, rgba(0,0,0,0) 100%);
-}
+.mask-image-project {mask-image: linear-gradient(360deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.1) 60%, rgba(0,0,0,0) 100%);}
 
 .pink-goose-image {bottom: 140px;}
 .mastermind-image {bottom: 80px;}
@@ -348,14 +346,14 @@ ul{gap: 20px;padding: 0px 40px 0px 0px;}
     animation: javaTechAnimation 5s linear infinite -1.5s;
 }
 
-@keyframes javaTechAnimation {
+/* @keyframes javaTechAnimation {
     from{
         transform: translateX(100%);
     }
   to {
     transform: translateX(-100%);
   }
-}
+} */
 
 /* .javascript-box{
     overflow: hidden;
@@ -467,11 +465,27 @@ ul{gap: 20px;padding: 0px 40px 0px 0px;}
 
 .form-submit-button{
     margin-top: 20px;
-    padding: 10px 230px 10px 230px;
+    height: 50px;
+    width: 100%;
     border-radius: 10px;
+    cursor: pointer;
     border: #4AA495 2px solid;
     background: linear-gradient(90deg, #4473C6, #29C8AD);
 }
+
+.buttonBounceOnClick:active:hover {
+    animation: pop 0.1s ease-in-out both;
+    /* transform: scale(0.99); */
+    /* transition: transform 0.1s;
+    transition-duration: 500ms */
+}
+
+@keyframes pop {
+    0% { transform: scale(1.05); }
+    50% { transform: scale(1.01); }
+    100% { transform: scale(1.05); }
+}
+
 
 /** Footer Style **/
 footer{
