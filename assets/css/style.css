@@ -130,6 +130,28 @@ Body{background-color: #0A0A0A;}
     background: linear-gradient(90deg, #29C8AD, #146255);
 }
 
+/** underline hover effect **/
+.underline{
+    position: relative;
+    cursor: pointer;
+}
+
+.underline::after{
+    content: '';
+    position: absolute;
+    height: 2px;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    border-radius: 50px;
+    background: #29C8AD;
+    transition: width 0.5s;
+}
+
+.underline:hover::after{
+    width: 100%;
+}
+
 /** Header Style **/
 header{
     width: 100%;
@@ -320,6 +342,62 @@ ul{gap: 20px;padding: 0px 40px 0px 0px;}
 .tech-placement{width: 100%; padding: 100px 40px;;}
 .tech-title{padding: 50px 0px 0px 0px;}
 .tech-stack-boxes{gap: 40px; padding: 50px 0px;}
+
+.java-box{
+    overflow: hidden;
+    animation: javaTechAnimation 5s linear infinite -1.5s;
+}
+
+@keyframes javaTechAnimation {
+    from{
+        transform: translateX(100%);
+    }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+/* .javascript-box{
+    overflow: hidden;
+    animation: jsTechAnimation 2s linear infinite -1.5s;
+}
+
+@keyframes jsTechAnimation {
+    from{
+        transform: translateX(100%);
+    }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.html-box{
+    overflow: hidden;
+    animation: javaTechAnimation 2s linear infinite -1.5s;
+}
+
+@keyframes htmlTechAnimation {
+    from{
+        transform: translateX(100%);
+    }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.css-box{
+    overflow: hidden;
+    animation: javaTechAnimation 2s linear infinite -1.5s;
+}
+
+@keyframes cssTechAnimation {
+    from{
+        transform: translateX(100%);
+    }
+  to {
+    transform: translateX(-100%);
+  }
+} */
 
 
 .tech-box-style{
