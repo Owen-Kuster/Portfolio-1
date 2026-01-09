@@ -337,8 +337,10 @@ ul{gap: 20px;padding: 0px 40px 0px 0px;}
     background-repeat: no-repeat;
 }
 
-.tech-placement{width: 100%; padding: 100px 40px;;}
-.tech-title{padding: 50px 0px 0px 0px;}
+.get-in-touch-container{padding: 0px 40px 0px 0px;}
+.contact-container{padding: 0px 40px 0px 40px;}
+.tech-placement{width: 100%; padding: 100px 0px;;}
+.tech-title{padding: 50px 40px 0px 40px;}
 .tech-stack-boxes{gap: 40px; padding: 50px 0px;}
 
 .java-box{
@@ -346,18 +348,18 @@ ul{gap: 20px;padding: 0px 40px 0px 0px;}
     animation: javaTechAnimation 5s linear infinite -1.5s;
 }
 
-/* @keyframes javaTechAnimation {
+@keyframes javaTechAnimation {
     from{
         transform: translateX(100%);
     }
   to {
     transform: translateX(-100%);
   }
-} */
+}
 
-/* .javascript-box{
+.javascript-box{
     overflow: hidden;
-    animation: jsTechAnimation 2s linear infinite -1.5s;
+    animation: jsTechAnimation 5s linear infinite -1.5s;
 }
 
 @keyframes jsTechAnimation {
@@ -371,7 +373,7 @@ ul{gap: 20px;padding: 0px 40px 0px 0px;}
 
 .html-box{
     overflow: hidden;
-    animation: javaTechAnimation 2s linear infinite -1.5s;
+    animation: javaTechAnimation 5s linear infinite -1.5s;
 }
 
 @keyframes htmlTechAnimation {
@@ -385,7 +387,7 @@ ul{gap: 20px;padding: 0px 40px 0px 0px;}
 
 .css-box{
     overflow: hidden;
-    animation: javaTechAnimation 2s linear infinite -1.5s;
+    animation: javaTechAnimation 5s linear infinite -1.5s;
 }
 
 @keyframes cssTechAnimation {
@@ -395,14 +397,14 @@ ul{gap: 20px;padding: 0px 40px 0px 0px;}
   to {
     transform: translateX(-100%);
   }
-} */
+}
 
 
 .tech-box-style{
     width: 200px;
     height: 70px;
     border-radius: 100px;
-    outline: #888888 2px solid;
+    border: #888888 2px solid;
     padding: 0px 30px 0px 30px;
 }
 
@@ -485,7 +487,6 @@ ul{gap: 20px;padding: 0px 40px 0px 0px;}
     50% { transform: scale(1.01); }
     100% { transform: scale(1.05); }
 }
-
 
 /** Footer Style **/
 footer{
