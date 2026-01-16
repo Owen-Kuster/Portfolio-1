@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/fonts/Inter/">
     <link rel="stylesheet" href="assets/fonts/Montserrat/">
-    <script src="./assets/js/script.js"></script>
+    
     <!--<script src="https://cdn.tailwindcss.com"></script>-->
     <title>Portfolio Owen</title>
 </head>
@@ -148,20 +148,20 @@
                 <div class="flex-colum work-experience-boxes">
                     <div class="flex-row albron-work-box">
                         <div class="flex-column flex-justify-center flex-align-center work-design">
-                            <div class="color-ball"></div>
                             <div class="color-line"></div>
                         </div>
-                        <div class="flex-align-self-center flex-row bg-light-dark work-boxes-albron albron-box">
+                        <div id="albronBox" class="flex-align-self-center flex-row bg-light-dark work-boxes-albron albron-box cursor-pointer hover-lighter hover-duration-500ms">
                             <div class="flex-column work-box-txt">
 
                                 <div class="fs-24 fs-italic albron-title">
                                     <h3>Catering Employee</h3>
                                 </div>
+                                
                                 <div class="fs-20 work-year-txt">
                                     <p>2024 - now</p>
                                 </div>
                                 <div class="txt-work">
-                                    <div class="fw-light fs-italic work-txt">
+                                    <div class="fw-light fs-italic work-txt" id="work-txt-albron">
                                         <p>As a catering staff member, I manage the entire kitchen.
                                             Together with my team, we ensure that all food is ready on time..<br><br>
                                             It is up to us to work together and take charge when needed.
@@ -170,7 +170,7 @@
                                 </div>
                             </div>
                             <div class="work-image">
-                                <img src="assets/img/work/Albron-not-fade.png" alt="albron-logo" width="700px"
+                                <img id="albron-image" class="albron-image-red" src="assets/img/work/Albron-not-fade.png" alt="albron-logo" width="700px"
                                     height="400px">
                             </div>
                         </div>
@@ -179,10 +179,9 @@
                 <div class="flex-colum work-experience-boxes">
                     <div class="flex-row albron-work-box">
                         <div class="flex-column flex-justify-center flex-align-center work-design">
-                            <div class="color-ball"></div>
                             <div class="color-line"></div>
                         </div>
-                        <div class="flex-align-self-center flex-row bg-light-dark work-boxes-jumbo albron-box">
+                        <div id="jumboBox" class="flex-align-self-center flex-row bg-light-dark work-boxes-jumbo albron-box cursor-pointer hover-lighter hover-duration-500ms">
                             <div class="flex-column work-box-txt">
 
                                 <div class="fs-24 fs-italic jumbo-title">
@@ -192,7 +191,7 @@
                                     <p>2023-2024</p>
                                 </div>
                                 <div class="txt-work">
-                                    <div class="fw-light fs-italic work-txt">
+                                    <div class="fw-light fs-italic work-txt" id="work-txt-jumbo">
                                         <p>As a JUMBO employee, I naturally had to stock shelves,
                                             but I also often covered for people,
                                             so I could gain more experience, work faster,
@@ -205,8 +204,7 @@
                                 </div>
                             </div>
                             <div class="work-image">
-                                <img src="assets/img/work/jumbo-not-fade.png" alt="albron-logo" width="700px"
-                                    height="400px">
+                                <img id="jumbo-image-yellow" class="jumbo-image-yellow" src="assets/img/work/jumbo-not-fade.png" alt="albron-logo" width="700px">
                             </div>
                         </div>
                     </div>
@@ -214,10 +212,9 @@
                 <div class="flex-colum work-experience-boxes">
                     <div class="flex-row albron-work-box">
                         <div class="flex-column flex-justify-center flex-align-center work-design">
-                            <div class="color-ball"></div>
                             <div class="color-line"></div>
                         </div>
-                        <div class="flex-align-self-center flex-row bg-light-dark work-boxes-albert-heijn albron-box">
+                        <div id="albertBox" class="flex-align-self-center flex-row bg-light-dark work-boxes-albert-heijn albron-box cursor-pointer hover-lighter hover-duration-500ms">
                             <div class="flex-column work-box-txt">
                                 <div class="fs-24 fs-italic albert-heijn-title">
                                     <h3>Team leader Albert Heijn</h3>
@@ -226,7 +223,7 @@
                                     <p>2022-2023</p>
                                 </div>
                                 <div class="txt-work">
-                                    <div class="fw-light fs-italic work-txt">
+                                    <div class="fw-light fs-italic work-txt" id="work-txt-albert">
                                         <p>In this role, I managed a team and managed the store.
                                             One of my most important responsibilities was ensuring everything ran
                                             smoothly in the store and
@@ -241,8 +238,7 @@
                                 </div>
                             </div>
                             <div class="work-image">
-                                <img src="assets/img/work/albert-heijn-not-fade.png" alt="albron-logo" width="700px"
-                                    height="400px">
+                                <img id="albert-image-blue" class="albert-image-blue" src="assets/img/work/albert-heijn-not-fade.png" alt="albron-logo" width="700px">
                             </div>
                         </div>
                     </div>
@@ -265,7 +261,7 @@
                         but these are the ones I am the most proud of!</p>
                 </div>
                 <div class="font-montserrat white-txt flex-justify-center flex-space-around project-box-three-boxes">
-                    <div class="bg-light-dark white-txt flex-column project-boxes ">
+                    <div class="bg-light-dark white-txt flex-column project-boxes hover-lighter hover-duration-500ms hover-size-105">
                         <div class="z-2 fw-bold fs-italic fs-24 project-box-title">
                             <h3>Pink Goose</h3>
                         </div>
@@ -279,7 +275,7 @@
                         </div>
                     </div>
 
-                    <div class="bg-light-dark white-txt flex-column project-boxes ">
+                    <div class="bg-light-dark white-txt flex-column project-boxes hover-lighter hover-duration-500ms hover-size-105">
                         <a href="https://github.com/Owen-Kuster/codebreaker">
                             <div class="fw-bold fs-italic fs-24 project-box-title">
                                 <h3>MasterMind</h3>
@@ -297,7 +293,7 @@
                     </div>
 
 
-                    <div class="bg-light-dark white-txt flex-column project-boxes ">
+                    <div class="bg-light-dark white-txt flex-column project-boxes hover-lighter hover-duration-500ms hover-size-105">
                         <a href="https://github.com/Owen-Kuster/Portfolio-1">
                             <div class="fw-bold fs-italic fs-24 project-box-title">
                                 <h3>Portfolio</h3>
@@ -403,7 +399,7 @@
                                             <label for="message">Enter your Message</label>
                                         </div>
                                         <div class="form-width textarea-box">
-                                            <textarea class="input-message bg-lightest-dark white-txt fs-15"
+                                            <textarea class="input-message bg-lightest-dark white-txt fs-15 font-montserrat"
                                                 placeholder="Your Message"></textarea>
                                         </div>
                                         <div
