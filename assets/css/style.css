@@ -533,13 +533,13 @@ footer{
     .work-title{font-size: 18px;}
     .work-boxes-placement{padding: 0px 20px;}
     .work-year-txt{width: 40%; font-size: 14px;}
-    .work-box-txt{width: 100%; font-size: 14px; padding: 20px 0px 0px 20px;}
+    .work-box-txt{width: 100%; font-size: 14px; padding: 20px 0px 0px 0px;}
     .work-image, .work-design, .my-experience-box{display: none;}
     .work-experience-boxes{flex-direction: column; gap: 0px; padding: 20px 20px 20px 20px;}
-    .albron-title, .albert-heijn-title, .jumbo-title{width: 100%; font-size: 16px;}
+    .albron-title, .albert-heijn-title, .jumbo-title, .work-year-txt{width: 100%; font-size: 16px; justify-items: center;}
     .albron-work-box{margin-top: 0px;}
     .work-boxes-albron, .work-boxes-jumbo, .work-boxes-albert-heijn{width: 100%;}
-    .work-txt{width: 98%; font-size: 16px; margin-top: 20px; padding: 0px 0px 20px 0px;}
+    .work-txt{width: 85%; font-size: 16px; margin-top: 20px; padding: 0px 0px 20px 0px; justify-self: center;}
 
     /** projects section responsive **/
     .projects{padding: 0px 20px 0px 20px;}
