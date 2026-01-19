@@ -346,7 +346,7 @@ ul{gap: 20px;padding: 0px 40px 0px 0px;}
 /** section 5 styling projects **/
 .projects-placement{
     width: 100%; 
-    padding: 100px 40px;
+    padding: 100px 40px 0px 40px;
     background-image: url('../img/Code/Code\ Fade.png');
     background-repeat: no-repeat;
 }
@@ -387,62 +387,6 @@ ul{gap: 20px;padding: 0px 40px 0px 0px;}
 .tech-placement{width: 100%; padding: 100px 0px;;}
 .tech-title{padding: 50px 40px 0px 40px;}
 .tech-stack-boxes{gap: 40px; padding: 50px 40px;}
-
-/* .java-box{
-    overflow: hidden;
-    animation: javaTechAnimation 5s linear infinite -1.5s;
-}
-
-@keyframes javaTechAnimation {
-    from{
-        transform: translateX(100%);
-    }
-  to {
-    transform: translateX(-100%);
-  }
-}
-
-.javascript-box{
-    overflow: hidden;
-    animation: jsTechAnimation 5s linear infinite -1.5s;
-}
-
-@keyframes jsTechAnimation {
-    from{
-        transform: translateX(100%);
-    }
-    to {
-    transform: translateX(-100%);
-  }
-}
-
-.html-box{
-    overflow: hidden;
-    animation: htmlTechAnimation 5s linear infinite -1.5s;
-}
-
-@keyframes htmlTechAnimation {
-    from{
-        transform: translateX(100%);
-    }
-  to {
-    transform: translateX(-100%);
-  }
-}
-
-.css-box{
-    overflow: hidden;
-    animation: cssTechAnimation 5s linear infinite -1.5s;
-}
-
-@keyframes cssTechAnimation {
-    from{
-        transform: translateX(100%);
-    }
-  to {
-    transform: translateX(-100%);
-  }
-} */
 
 .tech-box-style{
     width: 200px;
@@ -543,4 +487,90 @@ footer{
 .icons-social{
     gap: 40px;
     padding: 0px 40px 0px 0px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    /** color bar responsive **/
+    .color-bar{width: 150px; height: 5px; margin-top: 7px; margin-bottom: 15px;}
+    .underline::after{display: none;}
+
+    /** header responsive **/
+    header{height: 50px; position: sticky;}
+    ul{position: relative; gap: 10px; font-size: 10px; left: 25px; padding: 0px 0px 0px 0px;}
+    .logo{display: none;}
+
+    /** section 1 styling introduction responsive **/
+    .introduction-box-contain{width: 100%; padding: 100px 0px 0px 0px;}
+    .introduction-title-txt{gap: 10px; width: 100%; font-size: 20px;}
+    .introduction-header-txt{gap: 10px; width: 100%; font-size: 20px;}
+    .introduction-normal-txt{font-size: 16px; width: 70%;}
+    .txt-software-dev{width: 75%;padding: 5px 10px 0px 0px;font-size: 20px;}
+    .introduction-class{width: 100%;height: auto;}
+    .introduction-box-contain{padding: 50px 20px 0px 10px;}
+    .introduction-title-txt, .introduction-header-txt{gap: 10px;}
+    .read-more, .click-me-button{display: none;}
+
+    /** about me section responsive **/
+    .about-me{padding: 50px 0px 0px 0px; height: auto;}
+    .about-container{width: auto;}
+    .about-me-title{gap: 10px; font-size: 20px;}
+    .about-me-txt{width: 80%;margin-top: 10px;font-size: 17px;}
+
+    /** program goals section responsive **/
+    .program-goals{width: 100%; padding: 50px 0px 0px 0px; height: auto;}
+    .my-portfolio-box{display: none;}
+    .program-goals-title{font-size: 20px;}
+    .program-goals-three-boxes{flex-direction: column;gap: 1px;padding: 0px 50px 0px 50px;}
+    .program-boxes{width: 100%; height: auto; padding: 0px 0px 20px 0px;}
+    .project-box-three-boxes{flex-direction: column; gap: 40px;}
+    .goals-box-title{font-size: 18px;}
+    .goals-box-txt{font-size: 15px;}
+    .program-boxes{margin-top: 30px;}
+
+    /** work experience section responsive **/
+    .my-experience{width: 100%; height: auto; padding: 50px 0px 0px 0px;}
+    .work-title{font-size: 18px;}
+    .work-boxes-placement{padding: 0px 20px;}
+    .work-year-txt{width: 40%; font-size: 14px;}
+    .work-box-txt{width: 100%; font-size: 14px; padding: 20px 0px 0px 20px;}
+    .work-image, .work-design, .my-experience-box{display: none;}
+    .work-experience-boxes{flex-direction: column; gap: 0px; padding: 20px 20px 20px 20px;}
+    .albron-title, .albert-heijn-title, .jumbo-title{width: 100%; font-size: 16px;}
+    .albron-work-box{margin-top: 0px;}
+    .work-boxes-albron, .work-boxes-jumbo, .work-boxes-albert-heijn{width: 100%;}
+    .work-txt{width: 98%; font-size: 16px; margin-top: 20px; padding: 0px 0px 20px 0px;}
+
+    /** projects section responsive **/
+    .projects{padding: 0px 20px 0px 20px;}
+    .projects-placement{width: 100%; padding: 50px 20px;}
+    .project-title{font-size: 18px;}
+    .projects-placement{width: 100%; padding: 0px 20px 0px 20px;}
+    .project-title{padding: 50px 0px 0px 0px;}
+    .project-txt{width: 90%; font-size: 18px; margin-bottom: 50px;}
+    .project-box-title{padding: 20px 20px 0px 25px;}
+    .project-box-txt{width: 80%; padding: 10px 20px 0px 25px; font-size: 14px;}
+    .project-boxes{width: 100%; height: 160px; margin-top: 0px;}
+
+    /** tech stack section responsive **/
+    .tech-placement{width: 100%; padding: 50px 0px;}
+    .tech-title{font-size: 18px; padding: 30px 20px 0px 20px;}
+    .tech-stack-boxes{flex-wrap: wrap; justify-content: center; gap: 20px; padding: 30px 20px;}
+
+    /** contact me section responsive **/
+    .thanks-for-visiting-container{display: none;}
+    .get-in-touch-container{width: 600px; padding: 0px 20px 0px 20px;}
+    .touch-placement-box{width: 90%; height: auto; padding: 20px 20px 20px 20px;}
+    .touch-box{width: 100%; height: auto; margin-bottom: 50px; border-radius: 20px;}
+    .touch-title-txt{font-size: 16px;}
+    .form-width{width: 97%;}
+    .contact{padding: 20px 0px; width: 100%;}
+    .contact-container{width: 100%; padding: 0px 0px 0px 0px;}
+
+    /** footer responsive **/
+    footer{height: 80px;}
+    .all-rights-reserved{display: none;}
+    .icons-social{width: 100%; justify-content: space-between; padding: 0px 20px 0px 20px;}
+    
+
 }
